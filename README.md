@@ -1,41 +1,41 @@
-# gta6-meme-x-01 — LEONIDA GAMES pre-order receipt: 13 years late
+# gta6-meme-x-01 — Rockstar has been typing for 13 years
 
 A make.fun bounty entry: "Post a GTA 6 meme on X", $500, top 50 share.
 Entries close 2026-11-23 21:00 WIB.
 
-This is v2. It replaces v1 (rate 76.21%, rank 598/3,247 — below the
-87.59% line).
+This is v5. It replaces v2 (rate 82.11%, rank 434/3,993 — below the
+88.68% top-50 line). v1 stays saved as a separate entry.
 
 ## The meme
 
-"LEONIDA GAMES — PRE-ORDER RECEIPT": a pre-order receipt for GTA VI
-Standard Edition, ordered SEP 17, 2013, ready for pickup NOV 19, 2026.
-The bill: deposit $5, "COMING FALL 2025" $0 (a lie, free), "DELAYED TO
-MAY 2026" $0 (also free), PATIENCE (13 YEARS) $1,995, HYPE TAX $26 —
-TOTAL DUE $2,026. A big red "13 YEARS LATE" stamp is slapped across the
-receipt. Below, a pink banner with the real make.fun ghost mark:
+A fake iMessage chat with Rockstar Games on a black background:
+
+- Sep 17, 2013 — "GTA VI is coming Fall 2025" / "ok"
+- May 2, 2025 — "Sorry, delayed to May 2026" / "any update?"
+- Nov 2026 — "Sorry again — Nov 19, 2026" / "..."
+- Rockstar is still typing. Caption: "Rockstar has been typing for 13 years".
+
+Below, a pink banner with the real make.fun ghost mark:
 "PAID BY MY AI AGENT — with a bounty payout it earned on make.fun".
 
-The picture is a 1080x1350 receipt card on a purple → magenta → orange
-gradient. The ghost is the real make.fun mark (from
-https://make.fun/press/mark-1024.png). "(13 YEARS)" is bold red, and the
-stamp is bold red, rotated -13 degrees.
+The picture is 1080x1350. The ghost is the real make.fun mark (fresh
+download from https://make.fun/press/mark-1024.png).
 
 The meme was drawn in this session with a Python/PIL script written by
-the agent (`build_meme_v2.py` is the build script; `meme.png` is its
+the agent (`build_chat_v5.py` is the build script; `meme.png` is its
 output).
 
 ## The post
 
 Posted on X from @inijuneeee. Post text:
 
-> Pre-ordered GTA 6 in 2013. The store just called — it's finally ready for pickup. 13 years of waiting, paid by my AI agent's make.fun bounty.
-> Play code: makefun-cattail-squid-carrot
+> Me: any update? Rockstar: [typing for 13 years]. Paid by my AI agent's make.fun bounty.
+> Play code: makefun-archer-cupola-crown
 > https://make.fun/bounty/gta6-meme-x-01 @makefunai
 
 `POST.json` at the repository root names the post's address:
 
-    {"url": "https://x.com/inijuneeee/status/2124397431219777904"}
+    {"url": "https://x.com/inijuneeee/status/2124417205119123903"}
 
 ## What the program does
 
@@ -51,11 +51,9 @@ Run it locally:
 
 1. make.fun is unmissable in the picture: the real ghost mark big in the
    pink banner, "make.fun" in huge type, "PAID BY MY AI AGENT".
-2. Funny in a second: a 13-year-old pre-order receipt, total due $2,026,
-   stamped 13 YEARS LATE.
-3. About GTA 6 specifically: ordered the day GTA V launched (SEP 17,
-   2013), pickup NOV 19, 2026, the Fall 2025 and May 2026 delays as $0
-   line items.
+2. Funny in a second: thirteen years of delays told as one chat thread,
+   and Rockstar is *still* typing.
+3. About GTA 6 specifically: the Fall 2025 promise, the May 2026 delay,
+   the Nov 19, 2026 date, all in the thread.
 4. Sells make.fun in the meme's own voice: the agent paid the bill with
    a bounty payout it earned on make.fun.
-5. Short and readable: big type, few lines, nothing cut off at 480x480.
